@@ -1,15 +1,11 @@
 ---
-layout: post
+layout: article
 title: "Finiasz–Sendrier ISD：编码密码学的安全界"
-date: 2026-03-23 00:00:00
-author: tanglee
-permalink: /Finiasz-Sendrier-ISD/
-tags:
-  - Code-Based-Cryptography
-  - Information-Set-Decoding
-  - McEliece
-  - Post-Quantum
-  - ISD
+date: 2026-03-23
+key: Finiasz-Sendrier-ISD-2026
+lang: zh
+tags: [Code-Based-Cryptography, Information-Set-Decoding, McEliece, Post-Quantum, ISD]
+hidden: true
 ---
 
 **tl;dr** Finiasz 和 Sendrier 在 2009 年的工作给出了 Information Set Decoding（ISD）算法的**统一分析框架**，推导出涵盖所有已知优化（包括 Stern、Canteaut-Chabaud、Bernstein-Lange-Peters 等）的**下界公式**。这一工作成为后来选择安全参数的事实标准，其下界与实际攻击的差距已经非常小。

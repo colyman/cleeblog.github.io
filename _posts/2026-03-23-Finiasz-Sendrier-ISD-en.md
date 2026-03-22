@@ -1,16 +1,11 @@
 ---
-layout: post
+layout: article
 title: "Finiasz–Sendrier ISD: Unified Security Bounds for Code-based Cryptography"
-date: 2026-03-23 00:00:00
-author: tanglee
+date: 2026-03-23
+key: Finiasz-Sendrier-ISD-2026
 lang: en
-permalink: /Finiasz-Sendrier-ISD-en/
-tags:
-  - Code-Based-Cryptography
-  - Information-Set-Decoding
-  - McEliece
-  - Post-Quantum
-  - ISD
+tags: [Code-Based-Cryptography, Information-Set-Decoding, McEliece, Post-Quantum, ISD]
+bilingual: true
 ---
 
 **tl;dr** Finiasz and Sendrier's 2009 work provides a **unified analysis framework** for Information Set Decoding (ISD) algorithms, deriving a **lower bound** that encompasses all known improvements (Stern, Canteaut-Chabaud, Bernstein-Lange-Peters, etc.). This work became the de facto standard for selecting secure parameters in code-based cryptosystems—the gap between the bound and the best known attacks is already very small.
