@@ -1,8 +1,11 @@
 ---
-layout: post
-title: "BJMM Algorithm: How 1+1=0 Improves Information Set Decoding"
+layout: article
+title: "BJMM Algorithm：1+1=0 如何改进信息集解码"
 date: 2026-03-24
+key: BJMM-Algorithm-2026
+lang: zh
 tags: [Code-Based-Cryptography, Information-Set-Decoding, ISD, McEliece, BJMM, 2012]
+hidden: true
 ---
 
 > **tl;dr**: BJMM (Eurocrypt 2012) 将随机线性码解码的复杂度从 MMT 的 $2^{0.05364n}$ 降至 $2^{0.04934n}$。核心创新是**允许索引集合重叠**（$|I_1 \cap I_2| = \varepsilon$），从而利用 $\mathbb{F}_2$ 中 $1+1=0$ 的性质，同时拆分 1-位和 0-位，大幅增加解的表示数量（representations），进而降低算法的时间复杂度。
