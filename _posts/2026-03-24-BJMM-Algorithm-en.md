@@ -1,8 +1,11 @@
 ---
-layout: post
+layout: article
 title: "BJMM Algorithm: How 1+1=0 Improves Information Set Decoding"
 date: 2026-03-24
+key: BJMM-Algorithm-2026
+lang: en
 tags: [Code-Based-Cryptography, Information-Set-Decoding, ISD, McEliece, BJMM, 2012]
+bilingual: true
 ---
 
 > **tl;dr**: BJMM (Eurocrypt 2012) reduces the complexity of decoding random binary linear codes from MMT's $2^{0.05364n}$ to $2^{0.04934n}$. The key innovation is **allowing index sets to overlap** ($|I_1 \cap I_2| = \varepsilon$), leveraging the fact that $1+1=0$ in $\mathbb{F}_2$ to split both 1-positions *and* 0-positions, dramatically increasing the number of representations per solution.
